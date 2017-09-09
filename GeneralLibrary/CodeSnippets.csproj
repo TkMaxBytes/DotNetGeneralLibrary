@@ -41,11 +41,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CodeSnippets\classRegions.snippet" />
-    <None Include="CodeSnippets\lineComment.snippet" />
-    <None Include="CodeSnippets\logit.snippet" />
-    <None Include="CodeSnippets\methodLog.snippet" />
-    <None Include="CodeSnippets\standardComment.snippet" />
+    <None Include="TkCodeSnippets\classRegions.snippet" />
+    <None Include="TkCodeSnippets\lineComment.snippet" />
+    <None Include="TkCodeSnippets\logit.snippet" />
+    <None Include="TkCodeSnippets\methodLog.snippet" />
+    <None Include="TkCodeSnippets\standardComment.snippet" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
