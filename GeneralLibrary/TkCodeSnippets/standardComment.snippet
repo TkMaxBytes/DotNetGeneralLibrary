@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>Standard Comment</Title>
-			<Shortcut>cmt</Shortcut>
-			<Description>Standard Comment for code</Description>
-			<Author>Terrence Knoesen</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal Editable="false">
-					<ID>author</ID>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Standard Comment</Title>
+      <Author>Terrence Knoesen</Author>
+      <Description>Standard Comment for code</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>cmt</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>author</ID>
+          <ToolTip>
+          </ToolTip>
           <Default>Terrence Knoesen</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[/**$time$ asdn $author$ $end$**/]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[/**$author$ $end$**/]]></Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>
