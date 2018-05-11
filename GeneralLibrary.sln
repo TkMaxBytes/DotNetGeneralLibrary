@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippets", "GeneralLibrary\CodeSnippets.csproj", "{92FEA4DF-7BE7-4AA0-8E68-6B46EEF2DBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetUtils", "DotNetUtils\DotNetUtils.csproj", "{DDDBC2DE-E17D-4E7B-83F5-1BFA5ABC9F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{92FEA4DF-7BE7-4AA0-8E68-6B46EEF2DBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FEA4DF-7BE7-4AA0-8E68-6B46EEF2DBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92FEA4DF-7BE7-4AA0-8E68-6B46EEF2DBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDBC2DE-E17D-4E7B-83F5-1BFA5ABC9F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDBC2DE-E17D-4E7B-83F5-1BFA5ABC9F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDBC2DE-E17D-4E7B-83F5-1BFA5ABC9F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDBC2DE-E17D-4E7B-83F5-1BFA5ABC9F54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CA7B71D-E252-4F36-88EF-1CB799115256}
 	EndGlobalSection
 EndGlobal
