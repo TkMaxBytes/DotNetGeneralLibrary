@@ -43,7 +43,8 @@
   <ItemGroup>
     <None Include="TkCodeSnippets\classRegions.snippet" />
     <None Include="TkCodeSnippets\lineComment.snippet" />
-    <None Include="TkCodeSnippets\logit.snippet" />
+    <None Include="TkCodeSnippets\logInfo.snippet" />
+    <None Include="TkCodeSnippets\logDebug.snippet" />
     <None Include="TkCodeSnippets\methodLog.snippet" />
     <None Include="TkCodeSnippets\standardComment.snippet" />
   </ItemGroup>
